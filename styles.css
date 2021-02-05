@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* window styles */
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 100%;
+    color: hsl(234, 12%, 34%);
+    background-color: hsl(0, 0%, 98%);
+}
+/* article:header */
+    article#header{
+        display: block;
+        margin-top: 40px;
+    }
+    /* title */
+    article#header div#heading h1{
+        font-weight: 200;
+        font-size: x-large;
+        color: hsl(229, 6%, 66%);
+    }
+    /* title-highlight */
+    article#header div#highlight h1{
+        font-size: x-large;
+        font-weight: 600;
+    }
+    /* sub heading */
+    article#header div#sub-heading{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+        text-align: center;
+        padding:0 50px;
+    }
+    /* all card subtitle  */
+    article.cards div#card-sub{
+        font-weight: 200;
+        line-height: 25px;
+        color:hsl(229, 6%, 66%);
+    }
+    /* all card titles */
+    article.cards div#card-title{
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    /* all card images */
+    article.cards div#card-img{
+        margin-top: 20px;
+        text-align: right;
+    }
+    section#section-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    /* all card styles */
+    article.cards{
+        background-color: white;
+        width: 330px;
+        height: 250px;
+        margin:30px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px .5px hsl(229, 6%, 66%);
+
+    }
+    /* card specific styles */
+    article#card-1{
+        border-top:5px solid hsl(180, 62%, 55%);
+    }
+    article#card-2{
+        border-top:5px solid hsl(0, 78%, 62%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    article#card-3{
+        border-top:5px solid hsl(34, 97%, 64%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    article#card-4{
+        border-top:5px solid hsl(212, 86%, 64%);
+    }
+
+    /* ********************** */
+    /* text styles */
+    article#header div#heading, article#header div#highlight{
+        max-width: 90%;
+        margin: 5px auto;
+        text-align: center;
+    }
+    article#header div#sub-heading{
+        text-align: center;
+        padding:0 50px;
+    }
+
+/* ************************************** */
+/* media queries */
+/* ************************************** */
+
+/* laptop model */
+/* ************************************** */
+@media only screen and (max-width: 1440px){
+    /* sub heading */
+    article#header div#sub-heading{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+        text-align: center;
+        padding:0 250px;
+    }
+    section#section-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    article#card-1{
+        border-top:5px solid hsl(180, 62%, 55%);
+    }
+    article#card-2{
+        border-top:5px solid hsl(0, 78%, 62%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    article#card-3{
+        border-top:5px solid hsl(34, 97%, 64%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    article#card-4{
+        border-top:5px solid hsl(212, 86%, 64%);
+    }
+}
+
+/* ******************************* */
+/* mobile model */
+@media only screen and (max-width: 768px){
+    /* sub heading */
+    article#header div#sub-heading{
+        font-weight: 200;
+        color:hsl(229, 6%, 66%);
+        text-align: center;
+        padding:0 50px;
+    }
+    section#section-2{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    article#card-1{
+        border-top:5px solid hsl(180, 62%, 55%);
+        margin: 30px auto;
+    }
+    article#card-2{
+        border-top:5px solid hsl(0, 78%, 62%);
+        margin: 30px auto;
+    }
+    article#card-3{
+        border-top:5px solid hsl(34, 97%, 64%);
+        margin: 0 auto;
+    }
+    article#card-4{
+        border-top:5px solid hsl(212, 86%, 64%);
+        margin:30px auto;
+
+    }
+}
+
+
+/* maker tag */
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
